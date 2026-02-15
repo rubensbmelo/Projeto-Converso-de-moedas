@@ -16,9 +16,9 @@ body {
 }
 
 .logo {
-    width: 180px; 
+    width: 160px; /* Reduzi um pouco mais */
     display: block;
-    margin: 0 auto -20px; 
+    margin: 0 auto -15px; /* Puxa o card para cima da logo */
     position: relative; 
     z-index: 1;
 }
@@ -27,9 +27,8 @@ main {
     width: 375px;
     background: #F4F4F4;
     border-radius: 20px;
-    padding: 20px 24px 23px; 
+    padding: 15px 24px 20px; /* Reduzi os paddings internos */
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
-    margin-top: 0; 
 }
 
 label {
@@ -37,33 +36,34 @@ label {
     font-weight: 400;
     font-size: 14px;
     display: block;
-    margin-top: 10px; 
+    margin-top: 8px; /* Espaço entre blocos reduzido */
 }
 
+/* Campos mais finos como você pediu */
 select, input {
     width: 100%;
-    height: 48px;
+    height: 38px; /* Diminuído de 48px para 38px */
     background: #FFFFFF;
     border: 1px solid #BBBBBB;
     border-radius: 4px;
     padding-left: 12px;
-    margin-top: 5px;
-    font-size: 16px;
+    margin-top: 2px; /* Gruda mais na label */
+    font-size: 15px;
     outline: none;
     appearance: none;
 }
 
 button {
     width: 100%;
-    height: 48px;
+    height: 42px; /* Diminuído de 48px para 42px */
     background: #7712E5;
     color: #FFFFFF;
     border: none;
     border-radius: 5px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     cursor: pointer;
-    margin-top: 20px; 
+    margin-top: 15px; 
     transition: opacity 0.3s;
 }
 
@@ -74,8 +74,8 @@ button:hover {
 section {
     border: 1px solid #BBBBBB;
     border-radius: 20px;
-    margin-top: 20px; 
-    padding: 12px; 
+    margin-top: 15px; 
+    padding: 10px; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -88,22 +88,22 @@ section div {
 }
 
 section div img {
-    width: 45px;
-    height: 45px;
+    width: 40px; /* Reduzi de 45px para 40px */
+    height: 40px;
 }
 
 section > img {
-    width: 25px;
-    margin: 8px 0; 
+    width: 20px; /* Seta menor */
+    margin: 5px 0; 
 }
 
 section p {
-    font-size: 14px;
+    font-size: 13px; /* Fonte menor para economizar espaço */
     color: #777777;
 }
 
 section p:last-child {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px; /* Valor final um pouco menor */
     color: #000000;
 }
